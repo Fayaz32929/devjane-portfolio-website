@@ -1,4 +1,5 @@
-*,*::after,
+*,
+*::after,
 *::after {
     box-sizing: border-box;
 }
@@ -241,8 +242,6 @@ transition: transform 250ms cubic-bezier(.5, 0, .5, 1);
 }
 .intro__img{
     box-shadow: var(--bs);
-    /* box-shadow:  0.25em 0.25em 0.75em rgba(0,0,0,.25), 
-    0.125em 0.125em 0.25em rgba(0,0,0,.15);; */
 }
 .section__subtitle--intro{
     display: inline-block;
@@ -325,7 +324,7 @@ transition: transform 250ms cubic-bezier(.5, 0, .5, 1);
 }
 
 
-/*  */
+/* about me */
 
 .about-me{
     max-width: 1000px;
@@ -434,4 +433,18 @@ transition: transform 250ms cubic-bezier(.5, 0, .5, 1);
 
 .social-list__item{
     margin: 0 .5em;
+}
+
+
+/* Individula portfolio item styles */
+
+.portfolio-item-individual {
+    padding: 0 2em 2em;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.portfolio-item-individual p {
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
 }
